@@ -81,12 +81,7 @@ font-size: 16px;
 font-weight: 400;
 }
 
-.body-photo{
 
-    /* background: url('./person.png'), lightgray 50% / cover no-repeat; */
-    /* padding-right: 400px; */
-    /* margin-bottom: 200px; */
-}
 .body-photo img{
     width: 100%;
    
@@ -196,9 +191,6 @@ margin-left: 60px;
 
 
 /* main section end  */
-footer{
-    /* background: #0c0202; */
-}
 
 .footer-section{
     display: flex;
