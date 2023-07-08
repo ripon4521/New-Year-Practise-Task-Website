@@ -4,7 +4,7 @@ body{
 }
 
 .header-container{
- background-image: url('./images/banner/banner1.png');
+ background-image: url('./banner/banner1.png');
  background-repeat: no-repeat;
  background-size: cover;
  /* width: 2500px; */
