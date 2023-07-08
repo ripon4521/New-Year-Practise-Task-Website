@@ -25,9 +25,7 @@ height: 1000px;
 text-align: right;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 65px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 margin-bottom: 0;
 }
 .description{
@@ -35,20 +33,215 @@ margin-bottom: 0;
 text-align: right;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: 26px;
+
 }
 .btn{
     color: #FFF;
 text-align: right;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 20px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
 border-radius: 5px;
 background: #F15B22;
 border: none;
 padding: 20px 25px;
+}
+
+
+
+
+/* header section end  */
+
+
+.middle-body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    gap: 100px;
+}
+.middle-body-info{
+    /* text-align: left; */
+    text-align: left;
+    /* padding-top: 100px; */
+}
+.middle-body-info h2{
+    color: var(--dark-01, #151414);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.body-description{
+    color: var(--dark-02, #444343);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+
+.body-photo{
+
+    /* background: url('./person.png'), lightgray 50% / cover no-repeat; */
+    /* padding-right: 400px; */
+    /* margin-bottom: 200px; */
+}
+.body-photo img{
+    width: 100%;
+   
+}
+.properti-class ul li{
+    text-align: left;
+    list-style: url('./vec.png');
+}
+/* .fav-icon{
+    margin-top: 18px;
+    /* margin-right: 300px; */
+
+
+.properti-class li{
+    color: var(--dark-02, #444343);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+/* middle section end  */
+
+.plan-section{
+    margin-top: 200px;
+
+}
+.plan-heading{
+    text-align: center;
+    color: var(--dark-01, #151414);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-weight: 700;
+}
+.my-plan{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 100px;
+    text-align: center;
+    
+}
+.my-plan img{
+   /* padding-left: 15px; */
+   justify-content: center;
+}
+.plan-img h3{
+    color: var(--dark-01, #151414);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+font-weight: 700;
+}
+.plan-img h4{
+    color: var(--dark-03, #737272);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;;
+font-weight: 500;
+}
+
+/* my plan section end  */
+
+.mindset-section{
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('./watch.png');
+    /* background-image: url(../Image/bg.jpg); */
+    width: 50%;
+    /* height: auto; */
+    margin-bottom: 100px;
+    height: 300px;
+    justify-content: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 8px;
+    margin-left: 500px;
+/* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+margin-right: 100px;
+margin-top: 200px;
+
+
+   
+    
+}
+.mindset-section h1{
+    color: #FFF;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-weight: 700;
+padding: 50px 0px 0px 60px;
+
+}
+.btn-primary{
+    color: #F15B22;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+background: #FFF;
+padding: 10px 20px;
+border: 0;
+margin-left: 60px;
+/* margin-bottom: 20px; */
+}
+
+
+/* main section end  */
+footer{
+    /* background: #0c0202; */
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    /* margin-bottom: 200px; */
+    background:  var(--dark-01, #151414);
+    padding: 200px;
+    
+}
+.footer-section h1{
+    color: #F8F8F8;;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 45px;
+font-weight: 700;
+
+}
+.footer-section p{
+    color: #F8F8F8;;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 16px;
+font-weight: 400;
+
+}
+.email-form input{
+    color: var(--dark-07, #F3F3F3);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+font-weight: 400;
+padding: 20px;
+border: 0;
+border-radius: 5px;
+}
+
+.btn-secondary{
+    color: #F15B22;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #FFF;
+padding: 10px 20px;
+}
+.footer-img{
+    margin-right: 10px;
+    cursor: pointer;
 }
